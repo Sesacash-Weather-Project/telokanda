@@ -15,7 +15,7 @@ const fs = require('fs');
 var _ = require('lodash');
 
 // Init EOS api variables
-const signatureProvider = new JsSignatureProvider(['XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX']);
+const signatureProvider = new JsSignatureProvider(['XXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXXX']);
 //const rpc = new JsonRpc('https://basho-api.telosuk.io'); // Testnet
 const rpc = new JsonRpc('https://telos.caleos.io'); // Mainnet
 const api = new Api({ rpc, signatureProvider});
